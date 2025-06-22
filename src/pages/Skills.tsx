@@ -3,36 +3,62 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Languages',
       skills: [
-        { name: 'React', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Vue.js', level: 85 },
-        { name: 'Angular', level: 80 },
-        { name: 'Next.js', level: 88 },
-        { name: 'Tailwind CSS', level: 95 }
+        { name: 'Java' },
+        { name: 'Python' },
+        { name: 'C++' },
+        { name: 'SQL' }
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Python', level: 85 },
-        { name: 'Java', level: 75 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'MongoDB', level: 85 },
-        { name: 'Redis', level: 70 }
+        { name: 'Spring Boot' },
+        { name: 'REST APIs' },
+        { name: 'JWT' }
       ]
     },
     {
-      title: 'Tools & Technologies',
+      title: 'Frontend',
       skills: [
-        { name: 'Docker', level: 80 },
-        { name: 'AWS', level: 75 },
-        { name: 'Git', level: 95 },
-        { name: 'Figma', level: 85 },
-        { name: 'Jest', level: 80 },
-        { name: 'Webpack', level: 75 }
+        { name: 'React.js' },
+        { name: 'JavaScript' },
+        { name: 'HTML/CSS' },
+        { name: 'Bootstrap' }
+      ]
+    },
+    {
+      title: 'Databases',
+      skills: [
+        { name: 'MySQL' },
+        { name: 'PostgreSQL' }
+      ]
+    },
+    {
+      title: 'Cloud Platforms',
+      skills: [
+        { name: 'GCP' },
+        { name: 'AWS (Basics)' }
+      ]
+    },
+    {
+      title: 'Tools',
+      skills: [
+        { name: 'Git' },
+        { name: 'GitHub' },
+        { name: 'IntelliJ' },
+        { name: 'Docker' },
+        { name: 'Postman' }
+      ]
+    },
+    {
+      title: 'Concepts',
+      skills: [
+        { name: 'OOP' },
+        { name: 'DSA' },
+        { name: 'DBMS' },
+        { name: 'Computer Networks' }
       ]
     }
   ];
@@ -113,10 +139,9 @@ const Skills = () => {
           className="mt-20 grid md:grid-cols-4 gap-8"
         >
           {[
-            { label: 'Years Experience', value: '5+', icon: '💼' },
-            { label: 'Projects Completed', value: '50+', icon: '🚀' },
-            { label: 'Technologies Mastered', value: '20+', icon: '⚡' },
-            { label: 'Client Satisfaction', value: '100%', icon: '⭐' }
+            { label: 'Years Experience', value: '0', icon: '💼' },
+            { label: 'Projects Completed', value: '3', icon: '🚀' },
+            { label: 'Technologies Mastered', value: '20+', icon: '⚡' }
           ].map((stat, index) => (
             <motion.div
               key={stat.label}

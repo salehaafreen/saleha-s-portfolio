@@ -70,11 +70,11 @@ const Resume = () => {
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of California, Berkeley",
-      period: "2015 - 2019",
-      gpa: "3.8/4.0",
-      relevant: ["Data Structures", "Algorithms", "Web Development", "Database Systems"]
+      degree: "B.Tech in Computer Science and Engineering",
+      school: "C.V. Raman Global University, Bhubaneswar",
+      period: "2022–2026",
+      gpa: "8.86",
+      relevant: []
     }
   ];
 

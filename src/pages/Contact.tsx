@@ -54,7 +54,7 @@ const Contact = () => {
             </p>
           </motion.div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-full">
             <motion.div variants={itemVariants}>
               <Card className="glass-morphism h-full">
                 <CardContent className="p-8">
@@ -63,11 +63,11 @@ const Contact = () => {
                   <div className="space-y-6">
                     <div className="flex items-center space-x-4">
                       <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center">
-                        <Mail className="text-cyan-400" size={20} />
+                        <Mail className="text-cyan-400 relative top-0.5" size={20} />
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground">Email</p>
-                        <p className="text-lg">salehaafreen788@gmail.com</p>
+                        <p className="text-lg break-all">salehaafreen788@gmail.com</p>
                       </div>
                     </div>
 
