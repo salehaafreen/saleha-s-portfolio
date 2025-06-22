@@ -108,9 +108,12 @@ const Resume = () => {
             <Button 
               size="lg" 
               className="glass-morphism hover:neon-glow transition-all duration-300"
+              asChild
             >
-              <Download size={18} className="mr-2" />
-              Download PDF
+              <a href="/saleha%20afreen%20resume.pdf" download>
+                <Download size={18} className="mr-2" />
+                Download PDF
+              </a>
             </Button>
           </motion.div>
 
